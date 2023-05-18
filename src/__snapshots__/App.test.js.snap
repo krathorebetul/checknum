@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing renders learn react link 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="container mt-4"
+  >
+    <form
+      className="container border border-danger col-sm-2 col-sm-offset-2"
+      onSubmit={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#0B0B45",
+        }
+      }
+    >
+      <h4
+        className="text-center text-warning"
+      >
+        Check Number Status
+      </h4>
+      <div
+        className="container text-center mb-2"
+      >
+        <input
+          className="form-control"
+          name="num1"
+          onChange={[Function]}
+          placeholder="enter number"
+          required={true}
+          type="number"
+        />
+      </div>
+      <div
+        className="container text-center mb-2"
+      >
+        <input
+          className="btn btn-primary"
+          type="submit"
+          value="checkNum"
+        />
+      </div>
+      <div
+        className="container text-center mb-2"
+      >
+        <input
+          className="form-control"
+          disabled={true}
+          type="text"
+          value=""
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;
